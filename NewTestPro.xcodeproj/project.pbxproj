@@ -17,6 +17,10 @@
 		B50446D6216AFDDE00D102FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50446D5216AFDDE00D102FA /* main.m */; };
 		B50446E0216AFDDE00D102FA /* NewTestProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50446DF216AFDDE00D102FA /* NewTestProTests.m */; };
 		B50446EB216AFDDE00D102FA /* NewTestProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B50446EA216AFDDE00D102FA /* NewTestProUITests.m */; };
+		B54179AD218AD2EB00CB2523 /* UIImage+Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = B54179AC218AD2EB00CB2523 /* UIImage+Unit.m */; };
+		B5B607B021802EE0007F70DD /* NewTestPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5B607AE21802EE0007F70DD /* NewTestPro.xcdatamodeld */; };
+		B5B607B52180324D007F70DD /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B607B32180324D007F70DD /* Student+CoreDataClass.m */; };
+		B5B607B62180324D007F70DD /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B607B42180324D007F70DD /* Student+CoreDataProperties.m */; };
 		C62694D01810F6F3E723659C /* libPods-NewTestProUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A1F27C8561066BCF250234 /* libPods-NewTestProUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +63,13 @@
 		B50446E6216AFDDE00D102FA /* NewTestProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTestProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50446EA216AFDDE00D102FA /* NewTestProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTestProUITests.m; sourceTree = "<group>"; };
 		B50446EC216AFDDE00D102FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54179AB218AD2EB00CB2523 /* UIImage+Unit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Unit.h"; sourceTree = "<group>"; };
+		B54179AC218AD2EB00CB2523 /* UIImage+Unit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Unit.m"; sourceTree = "<group>"; };
+		B5B607AF21802EE0007F70DD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		B5B607B12180324D007F70DD /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataProperties.h"; path = "NewTestPro/Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B5B607B22180324D007F70DD /* Student+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Student+CoreDataClass.h"; path = "NewTestPro/Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		B5B607B32180324D007F70DD /* Student+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataClass.m"; path = "NewTestPro/Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		B5B607B42180324D007F70DD /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Student+CoreDataProperties.m"; path = "NewTestPro/Student+CoreDataProperties.m"; sourceTree = "<group>"; };
 		C0534D39A7FCDFB30621CE81 /* Pods-NewTestProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTestProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewTestProUITests/Pods-NewTestProUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D42F67721176E0063B806767 /* libPods-NewTestPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewTestPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D45AA543E3D72D08ECF64AC0 /* Pods-NewTestProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTestProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewTestProTests/Pods-NewTestProTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +130,11 @@
 		B50446BA216AFDDD00D102FA = {
 			isa = PBXGroup;
 			children = (
+				B5B607B12180324D007F70DD /* Student+CoreDataProperties.h */,
+				B5B607B22180324D007F70DD /* Student+CoreDataClass.h */,
+				B5B607B32180324D007F70DD /* Student+CoreDataClass.m */,
+				B5B607B42180324D007F70DD /* Student+CoreDataProperties.m */,
+				B5B607AE21802EE0007F70DD /* NewTestPro.xcdatamodeld */,
 				B50446C5216AFDDD00D102FA /* NewTestPro */,
 				B50446DE216AFDDE00D102FA /* NewTestProTests */,
 				B50446E9216AFDDE00D102FA /* NewTestProUITests */,
@@ -143,6 +159,8 @@
 			children = (
 				B50446C6216AFDDD00D102FA /* AppDelegate.h */,
 				B50446C7216AFDDD00D102FA /* AppDelegate.m */,
+				B54179AB218AD2EB00CB2523 /* UIImage+Unit.h */,
+				B54179AC218AD2EB00CB2523 /* UIImage+Unit.m */,
 				B50446C9216AFDDD00D102FA /* ViewController.h */,
 				B50446CA216AFDDD00D102FA /* ViewController.m */,
 				B50446CC216AFDDD00D102FA /* Main.storyboard */,
@@ -374,9 +392,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54179AD218AD2EB00CB2523 /* UIImage+Unit.m in Sources */,
 				B50446CB216AFDDD00D102FA /* ViewController.m in Sources */,
+				B5B607B62180324D007F70DD /* Student+CoreDataProperties.m in Sources */,
 				B50446D6216AFDDE00D102FA /* main.m in Sources */,
 				B50446C8216AFDDD00D102FA /* AppDelegate.m in Sources */,
+				B5B607B52180324D007F70DD /* Student+CoreDataClass.m in Sources */,
+				B5B607B021802EE0007F70DD /* NewTestPro.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,6 +721,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5B607AE21802EE0007F70DD /* NewTestPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5B607AF21802EE0007F70DD /* Model.xcdatamodel */,
+			);
+			currentVersion = B5B607AF21802EE0007F70DD /* Model.xcdatamodel */;
+			path = NewTestPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B50446BB216AFDDD00D102FA /* Project object */;
 }

@@ -17,11 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
+    self.view.backgroundColor = [UIColor whiteColor];
     int a = 0 ;
     if (a == 1) {
         
     }
+    UILabel *titleLab = [[UILabel alloc]initWithFrame:CGRectMake(0, 20, 200, 30)];
+    titleLab.textAlignment = NSTextAlignmentCenter;
+    titleLab.text = @"hellow world";
+    [self.view addSubview:titleLab];
+    
+    
+        UIImage *image = [UIImage imageNamed:@"123"];
 }
 
 
